@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58c03532-4324-41b1-8127-4661f5720fe6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/Message/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/Message/FrameCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/Message/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/TertiumQuid/ForwardChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/AuthUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/BufUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/ConnectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/HashUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Utils/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Constant/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Forward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Pool/ForwardChannelPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Table/ChannelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Id/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/PenetrationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Constant/DefaultConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/ChannelWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Forward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Pool/ForwardChannelPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Table/ChannelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Handler/ConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Handler/DefaultConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Inteceptor/ForwardIpInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/PenetrationServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Utils/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/initializer/ApplicationStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6blx49s9" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Myjava\apache-maven-3.8.3\moven-repo" />
+        <option name="mavenHome" value="D:/Myjava/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\Myjava\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Rk9cKtcWt8pIM4sbzxhAK1P2Us" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "E:/code/CommitGithub/Penetration/PenetrationServer/src/main/java",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\CommitGithub\Penetration\PenetrationServer\src\main\java" />
+      <recent name="E:\code\CommitGithub\Penetration\PenetrationClient\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PenetrationClient">
+    <configuration name="PenetrationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ytyo.PenetrationClient" />
+      <module name="PenetrationClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytyo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Penetration" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Penetration" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PenetrationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PenetrationServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ytyo.PenetrationServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ytyo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PenetrationClient" />
+        <item itemvalue="Spring Boot.PenetrationServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58c03532-4324-41b1-8127-4661f5720fe6" name="Changes" comment="" />
+      <created>1687783291665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687783291665</updated>
+      <workItem from="1687783293073" duration="9326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
