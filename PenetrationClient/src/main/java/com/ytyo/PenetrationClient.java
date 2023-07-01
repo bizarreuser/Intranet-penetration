@@ -12,7 +12,7 @@ public class PenetrationClient {
     public static final int CONNECTION_COUNT = 32;
     public static final int DEFAULT_SERVER_FORWARD_PORT = 7002;
     public static final int DEFAULT_REAL_SERVER_PORT = 8080;
-    public static final String DEFAULT_SERVER_HOST = "ytycc.com";
+    public static final String DEFAULT_SERVER_HOST = "localhost";
 
     public static void main(String[] args) {
 
