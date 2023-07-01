@@ -115,7 +115,6 @@ public class Protocol {
      */
     public static ByteBuf transferEncode(ByteBuf allContent) {
         ByteBuf buffer = ByteBufAllocator.DEFAULT.heapBuffer();
-        buffer.writeBytes("".getBytes(StandardCharsets.UTF_8));
         buffer.writeInt(allContent.readableBytes());
         buffer.writeBytes(allContent);
         return buffer;

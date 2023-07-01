@@ -239,7 +239,7 @@ public class Forward {
                 .bind(port)
                 .sync();
         handler.postOpenForward(channelOrder, forwardChannelPool);
-        System.out.println("转发端开启成功!");
+        System.out.println("转发端:" + port + ",开启成功!");
     }
 
 

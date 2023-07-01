@@ -148,7 +148,7 @@ public class ChannelOrder {
                 buf.release();
                 return false;
             }
-            System.out.printf("客户端请求本地服务器，uuid:%s,消息序号:%s,消息:%s", uuid, order, buf.toString(StandardCharsets.UTF_8));
+            System.out.printf("客户端请求本地服务器，uuid:%s,消息序号:%s,消息:%s\n", uuid, order, buf.toString(StandardCharsets.UTF_8));
             buf.resetReaderIndex();
             return channelEntry.bufferWrite(order, buf);
         } finally {
@@ -191,7 +191,7 @@ public class ChannelOrder {
                 if (bufMap.containsKey(next)) {
                     return bufferWrite(next, bufMap.get(next));
                 }
-                return false;
+                return true;
             } else if (order > next) {
                 bufMap.put(order, buf);
                 return true;

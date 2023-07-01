@@ -140,7 +140,7 @@ public class Receiver {
                 })
                 .bind(port)
                 .sync();
-        System.out.println("接收端开启成功!");
+        System.out.println("接收端:"+port+",开启成功!");
     }
 
 

@@ -42,7 +42,8 @@ public class LogController {
                                     order:%s,buf:%s,所在channel的累计event的记录map:%s
                                     """, order, event.getBuf().readableBytes(), mapper.writeValueAsString(recordMap).substring(0, 10)));
                         } catch (JsonProcessingException e) {
-                            throw new RuntimeException(e);
+                            list.add("JsonProcessingException:序列化recordMap失败,错误:"+e.getMessage());
+                            return;
                         }
                     }
                 });

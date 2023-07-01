@@ -89,7 +89,7 @@ public class Receiver {
                                     ByteBuf buf = frame.content();
                                     switch (frame.code()) {
                                         case MESSAGE -> {
-                                            System.out.printf("客户端 收到消息: uuid:%s,order:%s,消息:%s", uuid, msgOrder, buf.toString(StandardCharsets.UTF_8));
+                                            System.out.printf("客户端 收到消息: uuid:%s,order:%s,消息:%s\n", uuid, msgOrder, buf.toString(StandardCharsets.UTF_8));
                                             respBuf.resetReaderIndex();
                                             Optional<ChannelOrder.ChannelEntry> optionalOldEntry;
                                             Channel getChannel = null;

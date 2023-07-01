@@ -77,6 +77,7 @@ public class Forward {
                                         int msgOrder = getChannelNextMsgOrder(ctx.channel());
                                         forwardChannel.get().writeCloseFrame(uuid.get(), msgOrder);
                                         removeCache(uuid.get());
+                                        ctx.close();
                                     }
                                 } finally {
                                     super.channelInactive(ctx);
@@ -97,6 +98,7 @@ public class Forward {
                                         int msgOrder = getChannelNextMsgOrder(ctx.channel());
                                         forwardChannel.get().writeCloseFrame(uuid.get(), msgOrder);
                                         removeCache(uuid.get());
+                                        ctx.close();
                                     }
                                 } finally {
                                     super.exceptionCaught(ctx, cause);
