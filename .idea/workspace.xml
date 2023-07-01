@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c03532-4324-41b1-8127-4661f5720fe6" name="Changes" comment="优化">
-      <change afterPath="$PROJECT_DIR$/Test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/Message/Protocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/com/ytyo/Dispatcher/Message/Protocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Forward.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Forward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Table/ChannelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/Dispatcher/TertiumQuid/Table/ChannelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/PenetrationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationClient/src/main/java/com/ytyo/PenetrationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Forward.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Forward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/Dispatcher/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/initializer/ApplicationStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/PenetrationServer/src/main/java/com/ytyo/initializer/ApplicationStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58c03532-4324-41b1-8127-4661f5720fe6" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +181,7 @@
       <workItem from="1687783293073" duration="10685000" />
       <workItem from="1688130321265" duration="6052000" />
       <workItem from="1688184348402" duration="6775000" />
-      <workItem from="1688198885816" duration="13214000" />
+      <workItem from="1688198885816" duration="13529000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1687792804215</created>
@@ -218,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688199648555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加测试">
+      <created>1688226946709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688226946709</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <created>1688227128708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688227128708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +227,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="添加测试" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

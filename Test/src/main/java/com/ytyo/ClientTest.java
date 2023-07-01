@@ -74,7 +74,7 @@ public class ClientTest {
                                  });
                              }
                          }
-                ).connect(new InetSocketAddress("ytycc.com", 8000))
+                ).connect(new InetSocketAddress("localhost", 8000))
                 .sync()
                 .channel();
         Scanner scanner = new Scanner(System.in);
