@@ -1,5 +1,6 @@
 package com.ytyo.Service;
 
+import com.ytyo.Id.IdProvider;
 import com.ytyo.Inteceptor.ForwardIpInterceptor;
 import com.ytyo.Utils.AuthUtil;
 import io.netty.buffer.ByteBuf;
@@ -12,8 +13,6 @@ import java.util.Optional;
 @Service
 public class UserService {
 
-
-    static String uniqueToken = AuthUtil.finalToken(AuthUtil.preToken("user", "111111")).orElseThrow();
 
     /**
      * 校验并携带上为channel携带上校验信息
@@ -33,7 +32,7 @@ public class UserService {
             return FalseAuth(channel);
         }
 
-        if (uniqueToken.equals(finalToken.get())) {
+        if (IdProvider.idToken().equals(finalToken.get())) {
             return TrueAuth(channel);
         } else {
             return FalseAuth(channel);

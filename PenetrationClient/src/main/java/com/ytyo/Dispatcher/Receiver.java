@@ -6,6 +6,7 @@ import com.ytyo.Dispatcher.Message.Protocol;
 import com.ytyo.Dispatcher.TertiumQuid.ForwardChannel;
 import com.ytyo.Dispatcher.TertiumQuid.Pool.ForwardChannelPool;
 import com.ytyo.Dispatcher.TertiumQuid.Table.ChannelOrder;
+import com.ytyo.Id.UserInfo;
 import com.ytyo.Utils.AuthUtil;
 import com.ytyo.Utils.ConnectUtil;
 import io.netty.bootstrap.Bootstrap;
@@ -24,8 +25,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.ytyo.Id.UserInfo.Password;
-import static com.ytyo.Id.UserInfo.UserName;
 
 public class Receiver {
 
@@ -59,7 +58,7 @@ public class Receiver {
                             @Override
                             public void channelActive(ChannelHandlerContext ctx) throws Exception {
                                 //让服务端校验身份
-                                ByteBuf auth = AuthUtil.authEncode(UserName, Password);
+                                ByteBuf auth = AuthUtil.authEncode(UserInfo.username(), UserInfo.password());
                                 ctx.channel().writeAndFlush(Protocol.transferEncode(auth));
                                 auth.release();
                                 Channel channel = ctx.channel();
